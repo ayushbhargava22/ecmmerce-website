@@ -1,0 +1,69 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Sony 40 inch Tv",
+          "price": "$10.99",
+          "image": { "fields": { "file": { "url": "./images/product1.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Syska Trimmer",
+          "price": "$12.99",
+          "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Hand watch",
+          "price": "$12.99",
+          "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Wall Clock",
+          "price": "$22.99",
+          "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Laptop Table",
+          "price": "$88.99",
+          "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Samsung Mobile",
+          "price": "$32.99",
+          "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Apple Mac Book Pro",
+          "price": "$45.99",
+          "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Racing bike",
+          "price": "$33.99",
+          "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+        }
+      }
+      
+    ]
+  }

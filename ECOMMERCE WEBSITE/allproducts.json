@@ -1,0 +1,69 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Apple Iphone XI",
+          "price": "$100.99",
+          "image": { "fields": { "file": { "url": "./images/iphone.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "One Plus-7",
+          "price": "$12.99",
+          "image": { "fields": { "file": { "url": "./images/oneplus.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Samsung Fridge",
+          "price": "$12.99",
+          "image": { "fields": { "file": { "url": "./images/fridge.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Nike shoe",
+          "price": "$22.99",
+          "image": { "fields": { "file": { "url": "./images/nike.jfif" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Puma shoe",
+          "price": "$88.99",
+          "image": { "fields": { "file": { "url": "./images/puma.jfif" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "MB body builder powder",
+          "price": "$32.99",
+          "image": { "fields": { "file": { "url": "./images/mb1.jfif" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "MB body whey building powder",
+          "price": "$45.99",
+          "image": { "fields": { "file": { "url": "./images/mb2.jfif" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "samsung Tv",
+          "price": "$33.99",
+          "image": { "fields": { "file": { "url": "./images/samsung.webp" } } }
+        }
+      }
+      
+    ]
+  }

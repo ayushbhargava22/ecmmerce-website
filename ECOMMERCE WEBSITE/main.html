@@ -1,0 +1,216 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy any thing</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-top">
+                <ul class="nav-top-content">
+                    <li class="menu">
+                        <span class="fa fa-home" id="home-icon"></span>
+                        <a href="#" style="    color: rgba(105, 105, 115, 1);
+                        ">Home</a>
+                    </li>
+                    <li class="menu">
+                        <span class="fa fa-info-circle" id="home-icon"></span>
+                        <a href="#" style="    color: rgba(105, 105, 115, 1);
+                        ">About us</a>
+                    </li>
+                    <li class="menu">
+                        <span class="fa fa-envelope-open"></span>
+                        <a href="#" style="    color: rgba(105, 105, 115, 1);
+                        ">Contact</a>
+                    </li>
+                    <li class="menu">
+                        <span class="fa fa-question"></span>
+                        <a href="#" style="    color: rgba(105, 105, 115, 1);
+                        ">FAQ</a>
+                    </li>
+                </ul>
+                <div class="main-dilvery">
+                    <div class="dilvery">
+                        <span class="fa fa-truck" style="    color: rgba(105, 105, 115, 1);
+                        "></span>
+                        <span class="dilvery-text" style="    color: rgba(105, 105, 115, 1);
+                        ">Dilvery</span>
+                    </div>
+                </div>
+            </div>
+            <!--  navbar logo , login section and all starts-->
+            <div class="navbar-content">
+                <div class="main-logo" style="cursor: pointer;">
+                    <a href="main.html" id="logo-logo">
+                        <img src="./images/logo.png" id="image">
+                    </a>
+                </div>
+                <div class="navbar-search">
+                    <ul class="allpart" style="display: block;">
+                        <div class="fa fa-caret-down" id="all-text"><span id="all-textt">All</span>
+                            
+                            <ul id="all-dropdown">
+                                <li id="drop-text">
+                                    <a href="#">Bags</a>
+                                </li>
+                                <li id="drop-text">
+                                    <a href="#">Climbing</a>
+                                </li>
+                                <li id="drop-text">
+                                    <a href="#">Deals</a>
+                                </li>
+                                <li id="drop-text">
+                                    <a href="#">Mobile and Tablets</a>
+                                </li>
+                                <li id="drop-text">
+                                    <a href="#">Clothing</a>
+                                </li>
+                                <li id="drop-text" >
+                                    <a href="#">Toys and Games</a>
+                                </li>
+                                <li id="drop-text">
+                                    <a href="#">Mobile Tablets and Acessories</a>
+                                </li>
+                                <li id="drop-text">
+                                    <a href="#">Electronics</a>
+                                </li>
+                                <li id="drop-text">
+                                    <a href="#">PC and Laptop</a>
+                                </li>
+                            </ul>
+                        </div>
+                       
+                    </ul>
+                        
+                    <div class="search-bar">
+                        <input type="text" id="text-bar">
+                    </div>
+                </div>
+                <div class="user-part">
+                    <div class="login-part">
+                        <div class="login">
+                            <a href="#" id="logo-page">
+                                <span class="fa fa-user" id="login-logo"></span>
+                                <span class="login-text">Login</span>
+                            </a>
+                        </div>
+                        <div class="register">
+                            <a href="#" id="register-page">
+                                <span class="fa fa-pencil" id="register-logo"></span>
+                                <span class="regiter-text">Register</span>
+                            </a>
+                        </div>
+                        <div class="wishlist">
+                            <a href="#" id="wishlist-page">
+                                <span class="fa fa-heart" id="wishlist-logo"></span>
+                                <span class="wishlist-text">Wishlist</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- navbar logo login section ends  -->
+        </nav>
+    </header>
+    <!--caterogry section starts-->
+    <div class="category">
+        <div class="shop-category">
+            <span class="fa fa-align-justify" id="cat-drop">Shop by Categories</span>
+            <div class="suppliment">
+                <span class="suppliment-text">Suppliments</span>
+            </div>
+            <div class="herbs">
+                <span class="herbs-text">Herbs and Hemeopathy</span>
+            </div>
+            <div class="health">
+                <span class="health-text">Beauty And Health</span>
+            </div>
+            <div class="home">
+                <span class="home-text">Home and Garden</span>
+            </div>
+        </div>
+    </div>
+    <!--category section ends-->
+    <!-- photo carousal and product start-->
+    <div class="carousal">
+        <div class="slideshow middle">
+            <div id="slider">
+                <div id="box">
+                    <img src="./images/creame.jpeg" id="slide-image">
+                </div>
+                    
+        
+                <!-- buttons for controls slider -->
+                <button class="prew fa fa-chevron-left" onclick="prewImage()" id="next1"></button>
+                <button class="next fa fa-chevron-right" onclick="nextImage()" id="next1"></button>
+            </div>
+        </div>
+        <div class="more-image">
+            <div class="hairfall">
+                <a href="#">
+                    <figure>
+                        <img src="./images/hairfall.jpeg" id="more">
+                    </figure>
+                </a>
+            </div>
+            <div class="cooker">
+                <a href="#">
+                    <figure>
+                        <img src="./images/cooker.jpeg" id="more">
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--photo carousal and products ends-->
+    <!--features start-->
+    <div class="features">
+        <div class="features-content">
+            <div class="deals">
+                <span class="fa fa-truck" id="deals-logo"></span>
+                <span class="deals-text">1 to 20 AED Deals</span>
+            </div>
+            <div class="return">
+                <span class="fa fa-reply" id="reply-logo"></span>
+                <span class="reply-text">Free Returns</span>
+            </div>
+            <div class="secure">
+                <span class="fa fa-unlock-alt" id="secure-logo"></span>
+                <span class="secure-text">Secure Shopping</span>
+            </div>
+            <div class="offer">
+                <span class="fa fa-cube" id="offer-logo"></span>
+                <span class="offer-text">Bundle Offers</span>
+            </div>
+        </div>
+    </div>
+    <section class="products">
+        <div class="section-title">
+          <h2>Featured products <p>Check out this wonderful line up of products that have been the favorites of our customers. They are popular due to their excellent quality and amazing price. Definitely great value for money.</p></h2>
+        </div>
+        <div class="products-center">
+          
+        </div>
+      </section>
+      <div class="all-products">
+          <div class="all-productbtn">
+            <a href="allproducts.html">
+                <button id="allproducts">See All Products -></button>
+            </a>
+          </div>
+      </div>
+      <!--<div class="brands">
+          
+      </div>-->
+</body>
+<script src="./js/carousal.js"></script>
+<script src="./js/product.js"></script>
+<script src="./js/all-dropdown.js"></script>
+</html>
+
+                    
+                    
